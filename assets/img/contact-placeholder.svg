@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800' viewBox='0 0 1200 800'>
+<defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop stop-color='#2563EB'/><stop offset='1' stop-color='#1D4ED8'/></linearGradient></defs>
+<rect width='1200' height='800' fill='#F8FAFF'/><rect x='60' y='60' width='1080' height='680' rx='34' fill='url(#g)' opacity='.88'/>
+<circle cx='210' cy='190' r='80' fill='white' opacity='.16'/><circle cx='980' cy='620' r='120' fill='white' opacity='.14'/>
+<text x='600' y='420' font-size='52' text-anchor='middle' fill='white' font-family='Arial, sans-serif'>BluePixel Placeholder</text>
+</svg>

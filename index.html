@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BluePixel Studio | Premium Graphic Designer Portfolio</title>
+  <meta name="description" content="BluePixel Studio crafts premium branding, social media creatives, and UI/UX visuals that convert." />
+  <meta property="og:title" content="BluePixel Studio | Premium Graphic Designer Portfolio" />
+  <meta property="og:description" content="Explore premium graphic design work and book a call with BluePixel Studio." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/hero-placeholder.svg" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="preloader" data-preloader><div class="loader-ring" aria-label="Loading"></div></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html" data-transition>BluePixel Studio</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="site-nav">
+        <li><a href="index.html" data-transition>Home</a></li><li><a href="pages/about.html" data-transition>About</a></li><li><a href="pages/portfolio.html" data-transition>Portfolio</a></li><li><a href="pages/services.html" data-transition>Services</a></li><li><a href="pages/pricing.html" data-transition>Pricing</a></li><li><a href="pages/testimonials.html" data-transition>Testimonials</a></li><li><a href="pages/contact.html" data-transition>Contact</a></li><li><a href="pages/book.html" data-transition>Book Now</a></li>
+      </ul>
+      <div class="actions"><button class="icon-btn" data-dark-toggle aria-label="Toggle dark mode">🌙</button><a class="btn btn-primary" href="pages/contact.html" data-transition>Hire Me</a></div>
+    </div>
+  </header>
+
+  <main id="main" class="page-transition">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="reveal">
+          <span class="badge">Premium Graphic Design Studio</span>
+          <h1>Design that feels premium.</h1>
+          <p>From strategic branding systems to high-performing social creatives and polished UI/UX visuals, BluePixel Studio helps brands look unforgettable.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="pages/portfolio.html" data-transition>View Portfolio</a>
+            <a class="btn btn-ghost" href="pages/book.html" data-transition>Book a Call</a>
+          </div>
+        </div>
+        <div class="glass-card hero-card reveal">
+          <img src="assets/img/hero-placeholder.svg" alt="Designer profile placeholder" />
+          <div class="tool-badges"><span>Figma</span><span>Photoshop</span><span>Illustrator</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container reveal">
+        <h2 class="section-title">3D Showcase</h2>
+        <p class="section-subtitle">A live abstract object representing the brand’s dynamic creative energy.</p>
+        <div class="three-wrap" aria-label="3D showcase canvas">
+          <canvas class="three-canvas js-three-scene" data-scene="orb"></canvas>
+          <div class="three-fallback" hidden>3D preview unavailable on this device. Enjoy this premium gradient preview instead.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container reveal">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="accordion-item"><button class="accordion-trigger" aria-expanded="false">What industries do you design for?</button><div class="accordion-content"><p>We work with SaaS, retail, beauty, hospitality, and personal brands.</p></div></div>
+        <div class="accordion-item"><button class="accordion-trigger" aria-expanded="false">How fast is delivery?</button><div class="accordion-content"><p>Typical projects are delivered in 5–15 business days depending on scope.</p></div></div>
+        <div class="accordion-item"><button class="accordion-trigger" aria-expanded="false">Do you provide source files?</button><div class="accordion-content"><p>Yes. You receive organized source files and export-ready assets.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container card reveal">
+        <h3>Join the creative newsletter</h3>
+        <p class="section-subtitle">Monthly design trends, campaign inspiration, and premium brand tips.</p>
+        <form class="form-grid" data-validate-form>
+          <div><label for="news-name">Name</label><input id="news-name" required /></div>
+          <div><label for="news-email">Email</label><input id="news-email" type="email" required /></div>
+          <button class="btn btn-primary" type="submit">Subscribe</button><p data-form-msg aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><strong>BluePixel Studio</strong><p>Premium visual design for modern brands.</p></div>
+      <div><h4>Quick Links</h4><p><a href="pages/services.html" data-transition>Services</a><br><a href="pages/pricing.html" data-transition>Pricing</a></p></div>
+      <div><h4>Social</h4><p><a href="#">Behance</a><br><a href="#">Dribbble</a><br><a href="#">Instagram</a></p></div>
+    </div>
+  </footer>
+  <button class="to-top" aria-label="Scroll to top">↑</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+  <script src="assets/js/three-scene.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
